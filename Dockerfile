@@ -2,7 +2,7 @@ FROM python:3.8
 
 WORKDIR /app
 
-RUN pip install torch gym numpy
+RUN pip install torch gym==0.24.1 numpy
 
 
 
